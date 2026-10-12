@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/index.html"><b>PART 1</b></a>
+            <a href="/part 2/index.html"><b>PART 2</b></a>
+            <a href="/part 3/index.html"><b>PART 3</b></a>
+        </nav>
+    </header>
+   
+    <main>
+        <h2>Same form from task 1 but with bootstrap</h2>
+
+        <form class="container">
+            <h3>Contact Form</h3>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                    <label for="FirstName" class="form-label">First Name</label>
+                    <input type="text" class="form-control" id="FirstName" placeholder="Sasuke" required>
+                </div>
+
+                <div class="col-md-6 mb-3">
+                    <label for="LastName" class="form-label">Last Name</label>
+                    <input type="text" class="form-control" id="LastName" placeholder="Uchiha" required>
+                </div>
+            </div>
+
+            <div class="col-md-12 mb-3">
+                <label for="email" class="form-label">Email Address</label>
+                <input type="email" class="form-control" id="email" placeholder="likesnaruto@gmail.com" required>
+            </div>
+
+            <div class="col-md-12 mb-3">
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" placeholder="Write your message here" maxlength="5"></textarea>
+            </div>
+
+            <div>
+                <button type="submit" class="btn btn-light">Submit</button>
+            </div>
+        </form>
+    </main>
+
+</body>
+</html>
