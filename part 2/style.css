@@ -49,3 +49,11 @@ nav a:hover {
     margin-left: auto;
     margin-right: auto;
 }
+
+input:valid + .valid-feedback {
+    display: block;
+}
+
+input:invalid ~ .invalid-feedback {
+    display: block;
+}

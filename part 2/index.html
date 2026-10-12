@@ -24,18 +24,24 @@
             <div class="row">
                 <div class="col-md-6 mb-3">
                     <label for="FirstName" class="form-label">First Name</label>
-                    <input type="text" class="form-control" id="FirstName" placeholder="Sasuke" required>
+                    <input type="text" class="form-control" id="FirstName" placeholder="Sasuke" required minlength="2" maxlength="15">
+                    <div class="valid-feedback">Yep</div>
+                    <div class="invalid-feedback">Please enter your first name</div>
                 </div>
 
                 <div class="col-md-6 mb-3">
                     <label for="LastName" class="form-label">Last Name</label>
-                    <input type="text" class="form-control" id="LastName" placeholder="Uchiha" required>
+                    <input type="text" class="form-control" id="LastName" placeholder="Uchiha" required minlength="2" maxlength="15">
+                    <div class="valid-feedback">Thats valid</div>
+                    <div class="invalid-feedback">Please enter your last name</div>
                 </div>
             </div>
 
             <div class="col-md-12 mb-3">
                 <label for="email" class="form-label">Email Address</label>
-                <input type="email" class="form-control" id="email" placeholder="likesnaruto@gmail.com" required>
+                <input type="email" class="form-control" id="email" placeholder="likesnaruto@gmail.com" required >
+                <div class="valid-feedback">Cool</div>
+                <div class="invalid-feedback">Please enter a valid email address.</div>
             </div>
 
             <div class="col-md-12 mb-3">
